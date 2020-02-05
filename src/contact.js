@@ -6,16 +6,10 @@ const Contact = () => (
     <SocialMediaIcons />
     <div className="container">
       <h2 id="talk"> Want to talk?</h2>
-      <form>
-        <label>Name</label>
-        <input></input>
-        <label>Email</label>
-        <input></input>
-        <label>Message</label>
-        <textarea></textarea>
-        <input type="button" value="Send" />
-        <input type="button" value="Reset" />
-      </form>
+      <p>
+        Feel free to contact me via linkedIn following the link in the top left
+        corner
+      </p>
     </div>
   </div>
 );
